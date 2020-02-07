@@ -61,8 +61,7 @@ body #logo{
 h1{
     font-size: 105px;
     font-weight: bold;
-    color: #333131;
-    
+    color: #333131;   
 }
 
 .container p{
@@ -103,7 +102,6 @@ h2{
 
 .wrapper fieldset{
     padding: 10px;
-    
 }
 
 .wrapper fieldset input {
@@ -129,8 +127,7 @@ button{
     background-color: #57eeab;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 .wrapper form p{
     font-size: 18px;
@@ -178,18 +175,23 @@ footer .row input{
     border: none;
     border-radius: 10px;
 }
+
 input.checkbox{
     border: solid black 10px;
 }
+
 input#hours{
     width: 50px;
 }
+
 input#city{
     width: 170%;
 }
+
 footer fieldset{
     padding-right: 10px;
 }
+
 footer button{
     background-color: #ff8480;
     color: white;
@@ -200,7 +202,6 @@ footer .icons{
     display: block;
     padding: 10px;
     text-align: center;
-
 }
 
 img#facebook,
@@ -214,24 +215,28 @@ img#linkedin{
 }
 
 @media(min-width:690px){
+
     body #logo{
         width: 30%;
     }
+
     .container img{
         width: 70%;
         padding-left: 100px;
         padding-bottom: 30px;
     }
+
     h2{
         padding-right: 215px;
     }
+
     footer button{
         width: 40%;
         float: right;
         margin-top: -38px;
         height: 40px;
-
     }
+
     div.row{
         padding: 0px 0px 0px 0px;
         width:40%;
@@ -241,41 +246,52 @@ img#linkedin{
 }
 
 @media(min-width:1000px){
+
    body{
-        margin: 50px;
+        margin: 50px; 
     }
-    
+
+    div.container{
+        margin-bottom: -650px;
+    }
+
     body #logo{
         width: 10%;
         padding-bottom: 100px;
     }
+
     .container{
         position: relative;
         margin: auto;
-        bottom: -50px;
     }
+
     h1,
     .container p{
         margin-right: 63%;
     }
+
     h1{
         font-size: 60px;
     }
+
     .container p{
         font-size: 20px;
     }
+
     .container img{
         width: 50%;
         position: relative;
-        top: -300px;
+        bottom: 300px;
         right: -200px;
     }
+
     .wrapper{
         width: 30%;
         position: relative;
-        top: -750px;
+        bottom: 100px;
         right: -400px;
     }
+
     .wrapper h2{
         width: 60%;
         padding-right: 5px;
@@ -287,21 +303,34 @@ img#linkedin{
         padding-right: 5px;
         font-size: 13px;
     }
+
     footer{
         margin: -50px;
     }
+
     div.foot{
         position: relative;
+        top: 30px;
     }
+
     footer button{
         float: left;
         margin-left: 420px;
         width: 20%;
         height: 37px;
     }
+
     footer .icons{
         display: flex;
         float: right;
         margin-top: -60px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+    footer p{
+        font-size: 16px;
     }
 }

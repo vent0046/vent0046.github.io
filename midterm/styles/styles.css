@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of css reset*/
+
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+}
+
+button, body{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* Start of Home page styling */
+#arc{
+    width: 110px;
+    height: 80px;  
+}
+
+.header#header{
+    background-color: #3c3b3a;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.header nav li{
+    padding: 10px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:active{
+    font-weight: bold;
+    transition: 0.3s font-weight;
+    color: #f2f2f2;
+}
+
+.header nav li a.hover,
+.header nav li a.active{
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.container#container{
+    margin: 15px;
+}
+
+.container#container h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #3c3b3a;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.container#container p{
+    font-size: 30px;
+    padding: 20px;
+    line-height: 45px;
+}
+
+.category#category{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.category#category figure{
+    padding: 20px;
+}
+
+.category#category figcaption{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #26a682;
+    vertical-align: bottom;
+}
+
+.category#category img{
+    height: 50px;
+    width: 100%;
+}
+
+.container#container button{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #26a682;
+    font-size: 35px;
+    font-weight: bold; 
+    color: #f2f2f2;
+    -webkit-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+}
+
+.discover#discover img#discoverimg{
+    height: 450px;
+    width: 100%;
+    padding: 25px;
+}
+
+.discover#discover img#school{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.discover#discover img#schoolmed,
+.discover#discover img#schoollarge{
+    display: none;
+}
+
+.discover#discover h1,
+.discover#discover h2,
+.discover#discover p,
+.discover#discover button{
+    margin: 25px;
+}
+
+.discover#discover h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: #3c3b3a;
+}
+
+.discover#discover h2{
+    font-size: 30px;
+    color: #26a682;
+}
+
+.discover#discover p{
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.discover#discover button{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #26a682;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold; 
+    color: #f2f2f2;
+    -webkit-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    position: relative;
+    left: 50%;
+}
+
+.wrapper#wrapper{
+    background-color:#3c3b3a;
+    padding: 30px;
+}
+
+.wrapper#wrapper img#simon{
+    height: 65%;
+    border-radius: 50%;
+    border: 7px solid white;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.wrapper#wrapper h1,
+.wrapper#wrapper h2{
+    text-align: center;
+    font-size: 25px;
+    color:#f2f2f2;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.wrapper#wrapper p{
+    color:#f2f2f2;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 35px;
+}
+
+.discover2#discover2 h1,
+.discover2#discover2 h2,
+.discover2#discover2 p,
+.discover2#discover2 button{
+    margin: 25px;
+}
+
+.discover2#discover2 img#entertainment{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.discover2#discover2 img#entertainmentmedium,
+.discover2#discover2 img#entertainmentlarge{
+    display: none;
+}
+
+.discover2#discover2 h1{
+    
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: #3c3b3a;
+}
+
+.discover2#discover2 h2{
+    font-size: 30px;
+    color: #26a682;
+}
+
+.discover2#discover2 p{
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.discover2#discover2 button{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #26a682;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold; 
+    color: #f2f2f2;
+    -webkit-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 17px 34px -10px rgba(0,0,0,0.75);
+    position: relative;
+    left: 250px;
+}
+
+.footer#footer{
+    background-color: #3c3b3a;
+}
+
+.footer#footer h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    color: #f2f2f2;
+    padding-top: 45px;
+}
+
+div.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img#facebook,
+img#instagram,
+img#twitter,
+img#youtube{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer#footer figure{
+    display: inline-block;
+    
+}
+
+.footer#footer figcaption{
+    color: #f2f2f2;
+    font-size: 13px;
+    vertical-align: bottom;
+}
+
+img#backtotop{
+    width: 30px;
+    height: 30px;
+}
+
+/* Start of Contact page styling */
+.contact#contact{
+    margin: 15px;
+
+}
+
+.contact#contact h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #3c3b3a;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.contact#contact p{
+    font-size: 30px;
+    padding: 20px;
+    line-height: 45px;
+}
+
+.contact#contact img{
+    height: 450px;
+    width: 100%;
+}
+
+.form#form{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px 5px #888888;
+    background-color: #26a682;
+    margin: 45px;
+    padding: 15px; 
+}
+
+.form#form h1{
+    color: #f2f2f2;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.form#form h2{
+    color: #f2f2f2;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;  
+}
+
+.form#form fieldset input{
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
+
+.form#form fieldset input#message{
+    height: 150px;
+}
+
+.form#form ::placeholder{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form#form button{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    background-color: #3c3b3a;
+    color: #f2f2f2;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.location#location h1,
+.location#location h2,
+.location#location p{
+    margin: 35px;
+    color: #3c3b3a;
+}
+
+.location#location h1{
+    font-size: 55px;
+    font-weight: bold; 
+}
+
+.location#location h2{
+    font-size: 35px;
+}
+
+.location#location p{
+    font-size: 20px;
+}
+
+.location#location img#map{
+    width: 100%;
+    height: 280px;
+}
+
+.location#location img#mapmedium,
+.location#location img#maplarge{
+    display: none;
+}
+
+/* Start of About page styling */
+
+.info#info h1,
+.info#info p{
+    margin: 35px;
+    color: #3c3b3a;
+}
+
+.info#info h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.info#info p{
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.info#info img#construction{
+    width: 100%;
+    height: 250px;
+}
+
+.about#about img#aboutimg{
+    width: 100%;
+    height: 250px;
+}
+
+.about#about img#aboutlarge{
+    display: none;
+}
+
+.green#green,
+.green2#green2{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-color: #26a682;
+    mix-blend-mode: multiply;
+    position: absolute;   
+}
+
+.about#about h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+    position: absolute;
+    left:30%;
+    padding-top: 80px; 
+}
+
+.about#about h2,
+.about#about p{
+    margin: 35px;
+}
+
+.about#about h2{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3c3b3a;
+}
+
+.about#about p{
+    font-size: 25px;
+    line-height: 45px;
+    color: #3c3b3a;
+}
+    
+.services#services img,
+.services3#services3 img{
+    width: 100%;
+    height: 250px;
+}  
+
+.services#services h1,
+.services3#services3 h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+    position: absolute;
+    left:20%;
+    padding-top: 80px;
+}
+
+.services#services h2,
+.services3#services3 h2,
+.services#services h3,
+.services3#services3 h3,
+.services#services p,
+.services3#services3 p,
+.services2#services2 h2,
+.services4#services4 h2,
+.services2#services2 h3,
+.services4#services4 h3,
+.services2#services2 p,
+.services4#services4 p{
+    margin: 25px;
+}
+
+.services#services h2,
+.services3#services3 h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #3c3b3a;
+}
+
+.services#services h3,
+.services3#services3 h3{
+    font-size: 30px;
+    color: #26a682;
+}
+
+.services#services p,
+.services3#services3 p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #3c3b3a;
+}
+
+.services2#services2,
+.services4#services4{
+    background-color:#f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services2#services2 h2,
+.services4#services4 h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #3c3b3a;
+}
+
+.services2#services2 h3,
+.services4#services4 h3{
+    font-size: 30px;
+    color: #26a682;
+}
+
+.services2#services2 p,
+.services4#services4 p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #3c3b3a;
+}
+
+.services#services img.fitness,
+.services#services img.bar,
+.services3#services3 img.fitness,
+.services3#services3 img.bar,
+.services2#services2 img.climbing,
+.services2#services2 img.bowling,
+.services4#services4 img.climbing,
+.services4#services4 img.bowling{
+    display: none;
+}
+
+.subscribe{
+    background-color: #3c3b3a;
+    padding: 15px;
+}
+
+.subscribe h2{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.subscribe button{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #26a682;
+    font-size: 20px;
+    font-weight: bold; 
+    color: #f2f2f2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+}
+
+.logos#logos h1{
+    margin: 25px;
+    padding: 20px;
+    font-size: 70px;
+    color: #3c3b3a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logos#logos img.sa{
+    width: 100%;
+    padding: 25px;
+}
+
+.logos#logos img.algonquin,
+.logos#logos img.pcl,
+.logos#logos img.cibc{
+    padding: 20px;
+    width: 70%;
+    margin-left: 70px;
+    margin-right: 70px;  
+}
+
+/* lots of relative position used as its the easiest way to move divs around on webpage */
+
+/* tablet media query*/
+
+@media (min-width: 750px){
+
+/* styling for index.html tablet breakpoint */
+
+   div.header#header{
+       display: flex;
+   } 
+
+   .header#header img#arc{
+       margin-left: 20px;
+   }
+
+   
+   
+   .header#header ul{
+       display: flex;
+       margin-left: 100%;
+       margin-right: 80%;
+       margin-top: 20px; 
+   }
+
+   .container#container{
+       margin: 40px;
+   }
+
+   .container#container h1{
+       font-size: 110px;
+   }
+
+   .container#container p{
+       font-size: 35px;
+   }
+
+   .category#category{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);     
+   }
+
+   .container#container button{
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 325px;
+   }
+
+   .discover#discover h1,
+   .discover#discover h2,
+   .discover#discover p,
+   .discover#discover button{
+       margin: 40px;
+   }
+  
+   .discover#discover button{
+       left: 70%;
+   }
+
+   .discover#discover img#school{
+        display:none;
+    }
+
+    .discover#discover img#schoolmed{
+        display: block;
+        width: 100%;
+    }
+
+   .wrapper#wrapper img#simon{
+       position: relative;
+       width: 30%;
+       height: 30%;
+       right: 20%;
+    }
+   .wrapper#wrapper{
+       height: 50%;
+   }
+
+   .wrapper#wrapper h1,
+   .wrapper#wrapper h2{
+       position: relative;
+       right: 30%;
+   }
+
+   .wrapper#wrapper h2{
+       padding-bottom: 50px;
+   }
+
+   .wrapper#wrapper p{
+       position: relative;
+       margin-right: 25%;
+       margin-left: 25%;
+       margin-top: -40%;
+       left: 20%;
+   }
+
+   .discover2#discover2 h1,
+   .discover2#discover2 h2,
+   .discover2#discover2 p,
+   .discover2#discover2 button{
+       margin: 40px;
+   }
+
+    .discover2#discover2 button{
+        left: 70%;
+    } 
+
+    .discover2#discover2 img#entertainment{
+        display:none;
+    }
+
+    .discover2#discover2 img#entertainmentmedium{
+        display: block;
+        width: 100%;
+    }
+
+/* styling for contact.html breakpoint */
+
+    .location#location img#map{
+        display: none;
+    }
+
+    .location#location img#mapmedium{
+        width: 100%;
+        display: block;
+    }
+
+/* styling for about.html */
+
+    .services#services h1,
+    .about#about h1{
+        padding-left: 10%;
+    }
+
+    .services#services h2,
+    .services#services h3,
+    .services#services p,
+    .services#services img.bar,
+    .services#services img.fitness,
+    .services2#services2 h2,
+    .services2#services2 h3,
+    .services2#services2 p{
+        margin-left: 45px;
+    }
+
+    .services#services img.bar,
+    .services#services img.fitness{
+        display: inline-block;
+        width: 250px;
+        height: 490px;
+        position:relative;
+        top: -500px;
+        margin-bottom: -440px;
+    }
+
+    .services#services h2,
+    .services#services h3,
+    .services#services p{
+        position: relative;
+        left: 40%;
+        margin-right: 50%;
+    }
+
+    .services2#services2 img.bowling,
+    .services2#services2 img.climbing,
+    .services4#services4 img.bowling,
+    .services4#services4 img.climbing{
+        display: inline-block;
+        width: 250px;
+        height: 490px;
+        position:relative;
+        top: -500px;
+        left: 60%;
+        margin-bottom: -440px;
+    }
+
+    .services2#services2 h2,
+    .services2#services2 h3,
+    .services2#services2 p,
+    .services4#services4 h2,
+    .services4#services4 h3,
+    .services4#services4 p{
+        position: relative;
+        padding-left: 23%;
+        padding-right: 23%;
+        right: 15%;
+    }
+
+    .subscribe#subscribe{
+        display: flex;
+    }
+
+    .subscribe#subscribe h2{
+        position: relative;
+        right: -10%;
+    }
+
+    .subscribe#subscribe button{
+        position: relative;
+        right: -10%;
+    }
+
+    .logos#logos{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+/* desktop media query */
+
+@media (min-width: 1000px){
+/*do not extend webpage after 1000px*/
+
+    /* styling for index.html desktop */
+    .header#header ul{
+        margin-left: 170%;
+        margin-right: 100%;
+        margin-top: 20px;
+    } 
+
+    .category#category,
+    .container#container{
+        margin-right: 500px;
+    }
+
+    .container#container h1{
+        font-size: 55px;
+    }
+
+    .container#container p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .category#category figure img{
+        width: 40px;
+    }
+
+    .category#category figure figcaption{
+        font-size: 15px;
+        position: relative;
+        right: 15px;
+    }
+
+    .discover#discover img#discoverimg{
+       width: 50%;
+       position: relative;
+       right: -520px;
+       top: -450px;
+       margin-bottom: -400px; 
+    }
+
+    .discover#discover img#schoolmed{
+        display: none;
+    }
+
+    .discover#discover{
+        background-color: #f2f2f2;  
+    }
+
+    .discover#discover img#schoollarge{
+        display: block;
+        margin: 35px;
+        width: 50%;
+    }
+
+    .discover#discover h1,
+    .discover#discover h2,
+    .discover#discover p{
+        position: relative;
+        left: 15%;
+        top: -230px;
+        margin: 0 20% 15px 40%;
+    }
+
+    .discover#discover h1{
+        font-size: 30px;
+    }
+
+    .discover#discover h2{
+        font-size: 25px;
+    }
+
+    .discover#discover p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: -200px;
+    }
+
+    .discover#discover button{
+        position: relative;
+        top: -50px;
+        padding: 5px 25px 5px 25px;
+        font-size: 20px;
+    }
+
+    .wrapper#wrapper img#simon{
+        width:15%;
+    }
+
+    .wrapper#wrapper h1,
+    .wrapper#wrapper h2{
+       padding: 5px;
+       right: 17%;
+       bottom: 95px;
+       font-size: 20px;
+    }
+
+    .wrapper#wrapper p{
+        font-size: 15px;
+        top: 180px;
+        padding-bottom: 200px;
+        line-height: 20px;
+    }
+
+    .discover2#discover2 img#entertainmentmedium{
+        display: none;
+    }
+
+    .discover2#discover2 img#entertainmentlarge{
+        display: block;
+        margin: 35px;
+        width: 50%;
+        position: relative;
+        left: 40%;
+    }
+
+    .discover2#discover2 h1,
+    .discover2#discover2 h2,
+    .discover2#discover2 p{
+        position: relative;
+        bottom: 225px;
+        padding: 0 0 0 0;
+        margin: 15px 580px 15px 25px;
+    }
+
+    .discover2#discover2 h1{
+        font-size: 30px;
+    }
+
+    .discover2#discover2 h2{
+        font-size: 25px;
+    }
+
+    .discover2#discover2 p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: -200px;
+    }
+
+    .discover2#discover2 button{
+        position: relative;
+        top: -50px;
+        padding: 5px 25px 5px 25px;
+        font-size: 20px;
+    }
+
+/* styling for desktop contact.html */
+
+    .contact#contact{
+        margin: 20px;
+    }
+
+    .contact#contact h1{
+        font-size: 45px;
+        margin-right: 350px;
+    }
+
+    .contact#contact p{
+        font-size: 15px;
+        line-height: 30px;
+        margin-right: 350px;
+    }
+
+    .contact#contact img#contactimg{
+        width: 50%;
+    }
+
+    .form#form{
+        width: 35%;
+        position: relative;
+        left: 55%;
+        bottom: 730px;
+        margin-bottom: -600px;
+    }
+
+    .location#location{
+        margin: 30px;
+    }
+
+    .location#location h1{
+        font-size: 45px;
+    }
+
+    .location#location h2{
+        font-size: 20px;
+    }
+
+    .location#location p{
+        font-size: 15px;
+    }
+
+    .location#location img#map,
+    .location#location img#mapmedium{
+        display: none;
+    }
+
+    .location#location img#maplarge{
+        display: block;
+        width: 50%;
+        height: 325px;
+        position: relative;
+        left: 50%;
+        bottom: 350px;
+        margin-bottom: -160px;
+     }
+
+     /* styling for desktop about.html */
+     
+     .about#about img#aboutimg{
+         display: none;
+     }
+
+     .about#about img#aboutlarge{
+         display: block;
+         width: 100%;
+    }
+
+    .green#green{
+        height: 131px;
+    }
+
+    .info#info{
+        margin: 20px;
+    }
+
+    .info#info h1{
+        font-size: 45px;
+        margin-right: 350px;
+    }
+
+    .info#info p{
+        font-size: 15px;
+        line-height: 30px;
+        margin-right: 430px;
+    }
+
+    .info#info img#construction{
+        width: 50%;
+        position: relative;
+        right: -520px;
+        top: -450px;
+        margin-bottom: -400px; 
+    }
+}
+    

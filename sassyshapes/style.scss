@@ -58,3 +58,39 @@ pentagon;
  **********************************************/
 
  
+@mixin shape ($shape, $color) {
+ 
+
+  
+ @if $shape == square{
+    @extend %square;
+    background-color: $color;
+
+ }
+// you can use @if no need for @else if - since were checking a TRUE or FALSE value
+ @if $shape == circle{
+   @extend %circle;
+   background-color: $color;
+ }
+
+ @if $shape == pentagon{
+   @extend %pentagon;
+   border-color: $color transparent;
+   &::before{
+     border-color: transparent transparent $color;
+   }
+
+ }
+}
+
+@each $shape in $shapes{
+  @each $color in $colors{
+    .#{$shape}-#{$color}  {
+      @include shape($shape, $color)
+    }
+  }
+}
+
+
+
+
